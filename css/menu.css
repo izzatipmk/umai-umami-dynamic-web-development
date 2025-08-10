@@ -1,0 +1,342 @@
+/* MENU PAGE */
+
+#page-header {
+    background-image: url(sushi-backgroundpage4.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+  }
+  
+  #page-header h2 {
+    color: #d94747;
+    font-size: 90px;
+    text-shadow: 2px 2px 2px #1a1a1a;
+  }
+
+  #page-header p {
+    color: #f4dfc1;
+    font-size: 23px;
+    text-shadow: 2px 2px 2px #1a1a1a;
+  }
+  
+  #product1_menu {
+    background-image: url(sushi-backgroundpage2.jpg);
+    height: 270vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    text-align: center;
+  }
+
+  #product1_menu h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    font-style: italic;
+    font-size: 70px;
+    color: #d94747;
+  }
+  
+  #product1_menu .pro-containermenu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #product1_menu .pro-menu {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+  }
+  
+  #product1_menu .pro-menu:hover{
+    box-shadow: 2px 2px 3px #f4dfc1;
+  }
+  
+  #product1_menu .pro-menu img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  #product1_menu .pro-menu .des {
+    text-align: start;
+    padding: 10px 0;
+  }
+  
+  #product1_menu .pro-menu .des h4 {
+    color: #d94747;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  #product1_menu .pro-menu .des h5 {
+    color: #f4dfc1;
+    font-family: var(--grechen-fuemen);
+    font-size: 13px;
+    font-weight: 550;
+  }
+  
+  #product1_menu .pro-menu .des i{
+    font-size: 12px;
+    color: rgba(243, 181, 25);
+  }
+  
+  #product1_menu .pro-menu .des h6 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+  }
+
+
+  #product2_menu {
+    background-image: url(sushi-backgroundpage2.jpg);
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    text-align: center;
+  }
+
+  #product2_menu h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    font-style: italic;
+    font-size: 70px;
+    color: #d94747;
+  }
+  
+  #product2_menu .pro-containermenu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #product2_menu .pro-menu {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+  }
+  
+  #product2_menu .pro-menu:hover{
+    box-shadow: 2px 2px 3px #f4dfc1;
+  }
+  
+  #product2_menu .pro-menu img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  #product2_menu .pro-menu .des {
+    text-align: start;
+    padding: 10px 0;
+  }
+  
+  #product2_menu .pro-menu .des h4 {
+    color: #d94747;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  #product2_menu .pro-menu .des h5 {
+    color: #f4dfc1;
+    font-family: var(--grechen-fuemen);
+    font-size: 13px;
+    font-weight: 550;
+  }
+  
+  #product2_menu .pro-menu .des i{
+    font-size: 12px;
+    color: rgba(243, 181, 25);
+  }
+  
+  #product2_menu .pro-menu .des h6 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+  }
+
+  #product3_menu {
+    background-image: url(sushi-backgroundpage2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    text-align: center;
+  }
+
+  #product3_menu h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    font-style: italic;
+    font-size: 70px;
+    color: #d94747;
+  }
+  
+  #product3_menu .pro-containermenu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #product3_menu .pro-menu {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+  }
+  
+  #product3_menu .pro-menu:hover{
+    box-shadow: 2px 2px 3px #f4dfc1;
+  }
+  
+  #product3_menu .pro-menu img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  #product3_menu .pro-menu .des {
+    text-align: start;
+    padding: 10px 0;
+  }
+  
+  #product3_menu .pro-menu .des h4 {
+    color: #d94747;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  #product3_menu .pro-menu .des h5 {
+    color: #f4dfc1;
+    font-family: var(--grechen-fuemen);
+    font-size: 13px;
+    font-weight: 550;
+  }
+  
+  #product3_menu .pro-menu .des i{
+    font-size: 12px;
+    color: rgba(243, 181, 25);
+  }
+  
+  #product3_menu .pro-menu .des h6 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+  }
+
+
+  /* MEDIA QUERY STARTS HERE */
+
+@media (max-width: 1030px) {
+  .section-p1 {
+    padding: 40px 80px;
+  }
+
+  #page-header {
+    height: 25vh;
+  }
+
+  #product1_menu {
+    height: 158vh;
+  }
+
+  #product2_menu {
+    height: 40vh;
+  }
+
+  #product3_menu {
+    height: 66vh;
+}
+
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 60px;
+  }
+
+  #page-header {
+    height: 20vh;
+  }
+
+  #page-header h2 {
+    font-size: 65px;
+  }
+
+  #product1_menu {
+    height: 545vh;
+  }
+
+  #product1_menu h2 {
+    padding-top: 0px;
+    padding-left: 15px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #product1_menu .pro-menu {
+    width: 100%;
+  }
+
+  #product2_menu {
+    height: 55vh;
+  }
+
+  #product2_menu h2 {
+    padding-top: 0px;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #product2_menu .pro-menu {
+    width: 100%;
+  }
+
+  #product3_menu {
+    height: 160vh;
+  }
+
+  #product3_menu h2 {
+    padding-top: 0px;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #product3_menu .pro-menu {
+    width: 100%;
+  }
+}

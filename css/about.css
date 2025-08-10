@@ -1,0 +1,54 @@
+#page-header.about-header {
+  background-image: url(sushi-backgroundpage4.jpg);
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+  background-image: url(sushi-backgroundpage2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+#about-head h2 {
+  font-style: italic;
+  color: #d94747;
+}
+
+#about-head p {
+  color: #f4dfc1;
+  font-family: var(--bebas-neue);
+}
+
+/* MEDIA QUERY STARTS HERE */
+
+@media (max-width: 1030px) {
+  .section-p1 {
+    padding: 40px 80px;
+  }
+
+  #about-head {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 60px;
+  }
+
+  #about-head {
+    height: 85vh;
+  }
+
+  #about-head h2 {
+    font-size: 40px;
+  }
+
+  #about-head p {
+    font-size: 15px;
+}
+
+
+}
